@@ -1,8 +1,8 @@
-package java01;
+package Strings;
 
 import java.util.Scanner;
 
-public class _10stringParse {
+public class _01stringParse {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         String str=input.nextLine();
@@ -10,6 +10,10 @@ public class _10stringParse {
 
         System.out.println(search(str,let));
         
+        /*
+        We can also use a enhanced for loop to parse over every character in a character arary
+        made from our string with the method toCharArray and returning tru of our target matches the character in array
+         */
         
         input.close();
     }

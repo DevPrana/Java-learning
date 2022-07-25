@@ -9,6 +9,15 @@ There is no automatic de allocations but we have to use a garbage colection func
 Heap objects are also not continuous as JAVA has no concept of pointers the memory allocation in the heap is solely dependent on the JVM and says in the documentation that it may not be continuous.
 ## **References**
 ---
+## **String**
+---
+Some methods in the string datatype include:
+
+- `length()` -> This gives us an integer depicting the length of our array
+
+- `charAt(index)` -> This tells us the character present in the string at that index.
+
+- `toCharArray()` -> This converts our string into an array of characters, it can be stored in a new char array using `char[] arr=new char[str.length()]`
 
 ## **Switch Statement**
 ---
@@ -23,4 +32,6 @@ A typical switch statement consists of `case` and `default` arguments (optional)
 5. `default` is an optional argument which will execute when no other case is satisfied.
 6. `default` is typically declared at the end but if we specify it in the middle then a `break` must be provided.
 7. Not every `case` needs to contain a `break`. If no `break` appears, the flow of control will fall through to subsequent cases until a `break` is reached.
+
+TODO enhanced switch defnitions
 
