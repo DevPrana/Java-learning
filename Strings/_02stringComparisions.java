@@ -12,8 +12,9 @@ public class _02stringComparisions {
         When we use equals method then instead of comparing the reference it actually checks for the value
          */
 
-         String name="Prerit";
-         String best= "Prerit";
+        String name="Prerit";
+        String best= "Prerit";
+        
 
         if(name==best){
             System.out.println("== is verified hence same reference");

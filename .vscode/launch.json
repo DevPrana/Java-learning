@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch selectionSort",
+            "request": "launch",
+            "mainClass": "Sorting_algorithms.selectionSort",
+            "projectName": "javaa_54639f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch bubbleSort",
+            "request": "launch",
+            "mainClass": "Sorting_algorithms.bubbleSort",
+            "projectName": "javaa_54639f96"
+        },
+        {
+            "type": "java",
             "name": "Launch Java Program",
             "request": "launch",
             "mainClass": "${file}"
