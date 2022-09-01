@@ -13,6 +13,7 @@ public class selectionSort {
         }
         selection(arr,size);
         System.out.println(Arrays.toString(arr));
+        in.close();
     }
     static void selection(int[] arr,int size){
         int temp;

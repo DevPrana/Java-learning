@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch digitSum",
+            "request": "launch",
+            "mainClass": "recursion.digitSum",
+            "projectName": "javaa_54639f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch getFactorial",
+            "request": "launch",
+            "mainClass": "recursion.getFactorial",
+            "projectName": "javaa_54639f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch printing1toN",
+            "request": "launch",
+            "mainClass": "recursion.printing1toN",
+            "projectName": "javaa_54639f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch quickSort",
+            "request": "launch",
+            "mainClass": "Sorting_algorithms.quickSort",
+            "projectName": "javaa_54639f96"
+        },
+        {
+            "type": "java",
             "name": "Launch selectionSort",
             "request": "launch",
             "mainClass": "Sorting_algorithms.selectionSort",

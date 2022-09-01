@@ -9,6 +9,11 @@ public class _04stringConcatenate {
         When we add two objects using the + operator it concatenates both these objects into one
         */
         String name="helo";
+        char[] arr1=new char[name.length()];
+        arr1=name.toCharArray();
+        for (int i = 0; i < arr1.length; i++) {
+            System.out.println(arr1[i]);
+        }
         int[] arr=new int[]{1,2,3,4,5};
         char hello=' ';
         String add=name+hello+Arrays.toString(arr); //We have to use array.tostring method or we get the hexadecimal hashcode of the array
