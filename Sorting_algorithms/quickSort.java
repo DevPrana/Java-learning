@@ -3,9 +3,9 @@ import java.util.*;
 
 public class quickSort{
     public static void main(String[] args) {
-        int[] arr={5,4,3,2,1};
-        quicksort(arr,0,arr.length-1);
-        System.out.println(Arrays.toString(arr));
+        int[] arr={5,6,4,3,7,9,2,1};
+        // quicksort(arr,0,arr.length-1);
+        // System.out.println(Arrays.toString(arr));
 
     }
 
@@ -21,7 +21,7 @@ public class quickSort{
             while(arr[s]<pivot){
                 s++;
             }
-            while(arr[e]>pivot){
+            while(arr[e]>pivot){    
                 e--;
             }
             if(s<=e){
@@ -31,9 +31,9 @@ public class quickSort{
                 s++;
                 e--;
             }
-            quicksort(arr,low,e);
-            quicksort(arr,s,high);
         }
+        quicksort(arr,low,e);
+        quicksort(arr,s,high);
     }
     
 }

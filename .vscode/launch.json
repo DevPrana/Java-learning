@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch bankAcount",
+            "request": "launch",
+            "mainClass": "Questions.oopsQuestions.bankAcount",
+            "projectName": "javaa_54639f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingletonCreator",
+            "request": "launch",
+            "mainClass": "OOPSjava.SingletonCreator",
+            "projectName": "javaa_54639f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch mergesort",
+            "request": "launch",
+            "mainClass": "Sorting_algorithms.mergesort",
+            "projectName": "javaa_54639f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch reverseNumber",
+            "request": "launch",
+            "mainClass": "recursion.reverseNumber",
+            "projectName": "javaa_54639f96"
+        },
+        {
+            "type": "java",
             "name": "Launch digitSum",
             "request": "launch",
             "mainClass": "recursion.digitSum",
