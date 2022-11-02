@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch tryCatchBasics",
+            "request": "launch",
+            "mainClass": "ExceptionErrors.tryCatchBasics",
+            "projectName": "javaa_54639f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch tryCatchThrowBasics",
+            "request": "launch",
+            "mainClass": "tryCatchThrowBasics",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch tryCatchThrowBasics",
+            "request": "launch",
+            "mainClass": "tryCatchThrowBasics",
+            "projectName": "javaa_54639f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch examprac",
+            "request": "launch",
+            "mainClass": "java01.examprac",
+            "projectName": "javaa_54639f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch exam",
+            "request": "launch",
+            "mainClass": "java_exam_practice.exam",
+            "projectName": "javaa_54639f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch exam01",
+            "request": "launch",
+            "mainClass": "java_exam_practice.exam01",
+            "projectName": "javaa_54639f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Interface",
+            "request": "launch",
+            "mainClass": "OOPSjava.Interface",
+            "projectName": "javaa_54639f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch singleInheritance2",
+            "request": "launch",
+            "mainClass": "OOPSjava.singleInheritance2",
+            "projectName": "javaa_54639f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch singleInheritance",
+            "request": "launch",
+            "mainClass": "OOPSjava.singleInheritance",
+            "projectName": "javaa_54639f96"
+        },
+        {
+            "type": "java",
             "name": "Launch bankAcount",
             "request": "launch",
             "mainClass": "Questions.oopsQuestions.bankAcount",

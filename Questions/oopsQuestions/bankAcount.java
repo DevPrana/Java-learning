@@ -1,11 +1,38 @@
 package Questions.oopsQuestions;
 
+class bankAcount {
+    public static void main(String[] args) {
+        server[] users=new server[5];
+        // server a=new server();
+        // a.print();
+        for (int i = 0; i < users.length; i++) {
+            users[i]=new server();
+        }
+        for (int i = 0; i < users.length; i++) {
+            users[i].depositAmount(1000);
+        } 
+        // users[0].withdraw(2000);
+        users[1].name="rohan";
+        users[1].getDetails();
+    }
+}
+
 class server{
     String name;
     int accountNo;
     char accntType;
     private float balance;
     static int usersNum;
+
+    // String test;
+
+    // server(String news){
+    //     test=news;
+    // }
+
+    // public void print(){
+    //     System.out.println(test);
+    // }
     
     public server(){    //Default initialization
         this.name="defaultUser";
@@ -41,22 +68,5 @@ class server{
             getDetails();
         }
     }
-}
-
-class bankAcount {
-    public static void main(String[] args) {
-        server[] users=new server[5];
-        for (int i = 0; i < users.length; i++) {
-            users[i]=new server();
-        }
-        for (int i = 0; i < users.length; i++) {
-            users[i].depositAmount(1000);
-        }
-        // users[0].withdraw(2000);
-        users[1].name="rohan";
-        users[1].getDetails();
-    }
-    
-
 }
 
